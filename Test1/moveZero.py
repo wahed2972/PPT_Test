@@ -1,4 +1,4 @@
-def q(nums):
+def moveZero(nums):
     n = len(nums)
     c = 0
     for i in range(n):
@@ -11,8 +11,7 @@ def q(nums):
         
     
         
-        
-        
+                
 nums = [0,1,0,3,12]
-q(nums)
+moveZero(nums)
 print(nums)
